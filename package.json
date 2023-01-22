@@ -1,0 +1,23 @@
+{
+  "name": "gimkit-mod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w & rollup --config rollup.config.js -w",
+    "build": "tsc && rollup dist/index.js --file bundle.js --format es"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.10.0",
+    "typescript": "^4.9.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "@colyseus/schema": "^1.0.45",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "colyseus": "./colyseus-js"
+  }
+}

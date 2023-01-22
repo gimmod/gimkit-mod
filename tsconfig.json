@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "NodeNext",
+		"target": "ESNext",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"outDir": "dist",
+		"rootDir": "src",
+		"sourceMap": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"experimentalDecorators": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}
